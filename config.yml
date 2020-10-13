@@ -1,0 +1,24 @@
+Mysql:
+  host: localhost
+  port: '3306'
+  userName: root
+  password: a
+  database: boulder-tracker
+  minimumIdle: 1
+  maximumPoolSize: 10
+Trackers:
+  blocHouse:
+    maximum: 130
+Tracker:
+  BOULDERCLUB:
+    hourOpen: 7
+    hourClosed: 22
+    interval: 180
+  BLOC_HOUSE:
+    hourClosed: 22
+    interval: 180
+    hourOpen: 7
+  NEWTON:
+    hourClosed: 22
+    interval: 180
+    hourOpen: 7
